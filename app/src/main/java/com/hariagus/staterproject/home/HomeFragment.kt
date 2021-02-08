@@ -55,7 +55,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun setList(sort: String) {
-        viewModel.getMovies(sort).observe(this, movieObserver)
+        viewModel.getMovies(sort).observe(viewLifecycleOwner, movieObserver)
     }
 
     private val movieObserver = Observer<Resource<List<Movie>>> { movies ->
