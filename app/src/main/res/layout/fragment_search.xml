@@ -41,7 +41,7 @@
         android:id="@+id/test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Please Search The Movie..."
+        android:text="@string/please_search_the_movie"
         android:fontFamily="@font/quicksand_bold"
         android:textSize="26sp"
         android:gravity="center"
@@ -50,21 +50,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieNotFound"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
-        app:lottie_autoPlay="true"
-        app:lottie_enableMergePathsForKitKatAndAbove="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/not_found"
-        app:lottie_repeatMode="reverse" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
