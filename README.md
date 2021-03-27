@@ -4,9 +4,9 @@
 
 ## Tech Stack
 - MVVM (Model-View-ViewModel) Architecture Pattern
-- Modularization (core module)
-- Dynamic Feature (favorite module)
-- Clean Architecture (data, domain, presentation)
+- Modularization (Core Module)
+- Dynamic Feature (Favorite Module)
+- Clean Architecture (Data, Domain, Presentation)
 - Dependency Injection with Koin
 - Coroutines Flow
 - ViewBinding
